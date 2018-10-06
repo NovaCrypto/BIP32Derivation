@@ -38,7 +38,7 @@ apply from: 'bintray.gradle'
 apply plugin: 'com.github.ben-manes.versions'
 
 group 'io.github.novacrypto'
-version '0.0.2'
+version '2018.10.06'
 
 // To upload a new version
 // ./gradlew clean build bintrayUpload -Puser=user -Pkey=APIKEY
@@ -48,10 +48,10 @@ bintray {
     publications = ['MyPublication']
     pkg {
         repo = 'BIP'
-        name = 'BIP32derivation'
+        name = project.name
         userOrg = 'novacrypto'
         licenses = ['GPL-3.0']
-        vcsUrl = 'https://github.com/NovaCrypto/BIP32derivation.git'
+        vcsUrl = "https://github.com/NovaCrypto/${project.name}.git"
         version {
             name = project.version
         }
