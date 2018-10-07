@@ -1,4 +1,4 @@
-[![Download](https://api.bintray.com/packages/novacrypto/BIP/BIP32derivation/images/download.svg)](https://bintray.com/novacrypto/BIP/BIP32derivation/_latestVersion) [![Build Status](https://travis-ci.org/NovaCrypto/BIP32derivation.svg?branch=master)](https://travis-ci.org/NovaCrypto/BIP32derivation) [![codecov](https://codecov.io/gh/NovaCrypto/BIP32derivation/branch/master/graph/badge.svg)](https://codecov.io/gh/NovaCrypto/BIP32derivation)
+[![Download](https://api.bintray.com/packages/novacrypto/BIP/BIP32derivation/images/download.svg)](https://bintray.com/novacrypto/BIP/BIP32derivation/_latestVersion) [![Build Status](https://travis-ci.org/NovaCrypto/BIP32Derivation.svg?branch=master)](https://travis-ci.org/NovaCrypto/BIP32Derivation) [![codecov](https://codecov.io/gh/NovaCrypto/BIP32derivation/branch/master/graph/badge.svg)](https://codecov.io/gh/NovaCrypto/BIP32derivation)
 
 # Install
 
