@@ -30,11 +30,10 @@ import static org.junit.Assert.assertSame;
 
 public final class PublicKeyDerivationCachingTests {
 
-    class Node {
-
+    private static class Node {
     }
 
-    class MyCkdFunction implements io.github.novacrypto.bip32.derivation.CkdFunction<Node> {
+    private static class MyCkdFunction implements io.github.novacrypto.bip32.derivation.CkdFunction<Node> {
         int invocations;
         Node lastParent;
         Node lastResult;

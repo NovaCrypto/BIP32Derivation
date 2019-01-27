@@ -65,6 +65,6 @@ public final class CharSequenceDerivationBadPathTests {
                 .hasMessage(expectedMessage);
     }
 
-    private class Node {
+    private static class Node {
     }
 }

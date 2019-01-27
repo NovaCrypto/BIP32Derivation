@@ -23,10 +23,13 @@ package io.github.novacrypto.bip32;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertNotNull;
+
 public final class ConstructorCoverage {
 
     @Test
     public void coverUtilClassConstructors() {
-        new Index();
+        //noinspection ObviousNullCheck
+        assertNotNull(new Index());
     }
 }
